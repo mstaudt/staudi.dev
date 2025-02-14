@@ -51,7 +51,7 @@ a, button, body, h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+    font-family: Gudea, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
     font-size: 18px;
     line-height: 1.6;
     word-break: break-word;
@@ -59,11 +59,35 @@ body {
 }
 
 @font-face {
-    font-family: Dangrek;
+    font-family: PoetsenOne;
     font-style: normal;
     font-weight: 200;
-    src: url(/assets/font/Dangrek-Regular.eot);
-    src: local('Dangrek Regular'), local('Dangrek-Regular'), url(/assets/font/Dangrek-Regular.ttf) format('truetype')
+    src: url(/assets/font/PoetsenOne-Regular.ttf);
+    src: local('PoetsenOne Regular'), local('PoetsenOne-Regular'), url(/assets/font/PoetsenOne-Regular.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Gudea;
+    font-style: normal;
+    font-weight: 200;
+    src: url(/assets/font/Gudea-Regular.ttf);
+    src: local('Gudea Regular'), local('Gudea-Regular'), url(/assets/font/Gudea-Regular.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Gudea;
+    font-style: italic;
+    font-weight: 200;
+    src: url(/assets/font/Gudea-Italic.ttf);
+    src: local('Gudea Italic'), local('Gudea-Italic'), url(/assets/font/Gudea-Italic.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: Gudea;
+    font-style: normal;
+    font-weight: bold;
+    src: url(/assets/font/Gudea-Bold.ttf);
+    src: local('Gudea Bold'), local('Gudea-Bold'), url(/assets/font/Gudea-Bold.ttf) format('truetype')
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section, table {
@@ -72,7 +96,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section, 
 
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.2;
-    font-family: Dangrek, sans-serif;
+    font-family: PoetsenOne, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, p {
