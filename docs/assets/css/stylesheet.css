@@ -369,7 +369,7 @@ body:not(.dark) #sun {
     position: relative;
     max-width: calc(var(--main-width) + var(--gap)* 2);
     margin: auto;
-    padding-bottom: 5px;
+    padding: 10px 0;
 }
 
 .site-header img {
