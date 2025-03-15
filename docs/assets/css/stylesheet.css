@@ -1231,17 +1231,14 @@ body {
 .image-text {
     display: flex;
     align-items: center;
-}
-
-.image-text div {
-    margin-left: 30px
+    gap: 25px;
 }
 
 .image-text h3 {
     margin: 0 0 10px
 }
 
-.image-text .tech {
+.tech {
     display: inline-block;
     padding: 5px 10px;
     border: 2px solid #283593;
@@ -1259,11 +1256,11 @@ summary {
     text-decoration: underline
 }
 
-.image-text .tech span {
+.tech span {
     vertical-align: middle
 }
 
-.image-text .tech .name {
+.tech .name {
     margin-left: 10px;
     display: inline-block;
     padding: 4px 0
@@ -1306,7 +1303,7 @@ summary {
     font-size: 1.1em
 }
 
-.app .tech .godot-icon {
+.tech .godot-icon {
     margin: unset;
     width: 24px;
     display: inline-block
@@ -1314,6 +1311,13 @@ summary {
 
 .coming-soon {
     color: #af0019
+}
+
+.reset-a, .reset-a:hover, .reset-a:visited, .reset-a:focus, .reset-a:active  {
+    text-decoration: none;
+    color: inherit;
+    outline: 0;
+    cursor: auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -1342,7 +1346,7 @@ summary {
         width: 80px
     }
 
-    .image-text .tech {
+    .tech {
         margin: 10px auto 0
     }
 
