@@ -1158,15 +1158,15 @@ body {
     font-weight: 700
 }
 
-.post-content h1 {
-    font-size: 1.75em
+main h1 {
+    font-size: 3em
 }
 
-.post-content h2 {
+main h2 {
     font-size: 1.5em
 }
 
-.post-content h3 {
+main h3 {
     font-size: 1.2em
 }
 
@@ -1236,6 +1236,11 @@ body {
 
 .image-text h3 {
     margin: 0 0 10px
+}
+
+.youtube-player {
+    width: 98%;
+    height: 400px;
 }
 
 .tech {
