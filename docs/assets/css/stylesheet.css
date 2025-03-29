@@ -268,11 +268,17 @@ img {
     max-width: calc(var(--nav-width) + var(--gap) * 2);
     margin-inline-start: auto;
     margin-inline-end: auto;
-    line-height: var(--header-height)
+    line-height: var(--header-height);
+    padding-right: calc(var(--gap) + 5px);
 }
 
 .nav a {
-    display: block
+    display: block;
+    font-size: 1.1em;
+}
+
+.nav a:hover {
+    text-decoration: underline;
 }
 
 .logo, #menu {
@@ -367,7 +373,7 @@ body:not(.dark) #sun {
 
 .site-header div {
     position: relative;
-    max-width: calc(var(--main-width) + var(--gap)* 2);
+    max-width: calc(var(--main-width) + var(--gap) * 2);
     margin: auto;
     padding: 10px 0;
 }
@@ -943,11 +949,35 @@ img.in-text {
 }
 
 .button {
-    background: var(--tertiary);
-    border-radius: var(--radius);
-    margin: 8px;
-    padding: 6px;
-    transition: transform .1s
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    transition: all .3s;
+    border-radius: 10px;
+    background-color: #283593;
+    border: 1px solid #ccc;
+    color: white;
+    box-shadow: 2px 2px 2px #ccc !important;
+}
+
+.button.large {
+    padding: 15px 25px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 0;
+    color: white;
+    display: inline-block;
+}
+
+.button.large .material-icons {
+    position: relative;
+    top: 3px;
+}
+
+.button:hover {
+    background-color: #4451c5;
+    box-shadow: 5px 5px 5px #ccc
 }
 
 .button-inner {
@@ -1159,11 +1189,11 @@ body {
 }
 
 main h1 {
-    font-size: 3em
+    font-size: 2.1em
 }
 
 main h2 {
-    font-size: 1.5em
+    font-size: 1.75em
 }
 
 main h3 {
@@ -1318,7 +1348,7 @@ summary {
     color: #af0019
 }
 
-.reset-a, .reset-a:hover, .reset-a:visited, .reset-a:focus, .reset-a:active  {
+.reset-a, .reset-a:hover, .reset-a:visited, .reset-a:focus, .reset-a:active {
     text-decoration: none;
     color: inherit;
     outline: 0;
@@ -1326,12 +1356,21 @@ summary {
 }
 
 @media screen and (max-width: 768px) {
+    :root {
+        --header-height: 40px;
+    }
+
     body {
         font-size: .9em
     }
 
+    .site-header img {
+        max-width: 150px;
+        margin-left: 25px;
+    }
+
     .main {
-        padding: 0 var(--gap) var(--gap) var(--gap);
+        padding: 20px var(--gap) var(--gap) var(--gap);
     }
 
     #profile img {
@@ -1343,7 +1382,7 @@ summary {
     }
 
     .image-text img {
-        margin: 0 auto 25px
+        margin: 0 auto 10px
     }
 
     .image-text div {
@@ -1351,12 +1390,16 @@ summary {
         text-align: center
     }
 
+    .app {
+        padding: 12px;
+    }
+
     .app img {
-        width: 80px
+        width: 60px;
     }
 
     .tech {
-        margin: 10px auto 0
+        margin: 10px auto 0 !important;
     }
 
     .youtube-player {
