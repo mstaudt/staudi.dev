@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Staudi Apps &amp; Games</title>
+    <link>https://staudi.dev/projects/</link>
+    <description>Recent content on Staudi Apps &amp; Games</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://staudi.dev/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spritpreise.jetzt</title>
+      <link>https://staudi.dev/spritpreise-jetzt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://staudi.dev/spritpreise-jetzt/</guid>
+      <description>Statically generated website that displays daily updated evaluations and statistics based on fuel prices over the last 5 years.</description>
+    </item>
+  </channel>
+</rss>

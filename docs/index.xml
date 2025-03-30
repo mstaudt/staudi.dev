@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Staudi Apps &amp; Games</title>
+    <link>https://staudi.dev/</link>
+    <description>Recent content on Staudi Apps &amp; Games</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 28 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://staudi.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dino World Run now available</title>
+      <link>https://staudi.dev/blog/dino-world-run-out-now/</link>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://staudi.dev/blog/dino-world-run-out-now/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://staudi.dev/images/blog/dinoworldrun-availablenow.jpg&#34; alt=&#34;Dino World Run logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;After six months of hard work, it’s finally happening: &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.braffdev.dinorun&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dino World Run&lt;/a&gt; is officially released for Android! 🎉&lt;/p&gt;&#xA;&lt;p&gt;In this game you play a cute little dino on an epic adventure through hand-drawn worlds. From the overgrown jungle to the scorched volcanic plains and dark caves, many challenging obstacles and lovingly designed levels await you. Challenge yourself and break your own highscore!&lt;/p&gt;&#xA;&lt;p&gt;The game is made with the &lt;a href=&#34;https://godotengine.org/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Godot game engine&lt;/a&gt;. I had a lot of fun learning how to set up and structure a game. As I had never really drawn before, I learned on-the-go how to create assets using ProCreate on an iPad.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://staudi.dev/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://staudi.dev/contact/</guid>
+      <description>&lt;h1 id=&#34;contact&#34;&gt;&#xA;  Contact&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#contact&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;If you want to get in touch with me, you can reach me at any time via e-mail.&#xA;I am always happy to receive suggestions for improvement or questions.&lt;/p&gt;&#xA;&lt;p&gt;markus(at)staudi.dev&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://staudi.dev/imprint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://staudi.dev/imprint/</guid>
+      <description>&lt;h1 id=&#34;imprint&#34;&gt;&#xA;  Imprint&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#imprint&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Information according to § 5 TMG&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Markus Staudt&lt;br&gt;&#xA;Bessemerstraße 30 90411 Nürnberg&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;contact&#34;&gt;&#xA;  Contact&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#contact&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;E-Mail: markus(at)staudi.dev&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;privacy-policy&#34;&gt;&#xA;  Privacy policy&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#privacy-policy&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;The use of this website is possible without providing personal data. Insofar as personal data (e.g. name, address or&#xA;e-mail addresses) is collected on our pages, this is always done on a voluntary basis as far as possible. This data will&#xA;not be passed on to third parties without your express consent. We would like to point out that data transmission over&#xA;the Internet (e.g. when communicating by e-mail) may be subject to security vulnerabilities. Complete protection of data&#xA;against access by third parties is not possible. We hereby expressly prohibit the use of contact data published within&#xA;the scope of the imprint obligation by third parties for sending unsolicited advertising and information material. The&#xA;operators of this website expressly reserve the right to take legal action in the event of the unsolicited sending of&#xA;advertising information, such as spam e-mails.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dino World Run - Privacy Policy</title>
+      <link>https://staudi.dev/dinoworldrun/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://staudi.dev/dinoworldrun/privacy-policy/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Last update: December 2024&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Thank you for your interest in our “Dino World Run” game. The protection of your privacy is very important to us.&lt;/p&gt;&#xA;&lt;h2 id=&#34;data-collected-by-us&#34;&gt;&#xA;  Data collected by us&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#data-collected-by-us&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;personal-data&#34;&gt;&#xA;  Personal data&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#personal-data&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;No personal data is requested or transmitted in any of our applications or services&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;data-collected-automatically-by-us&#34;&gt;&#xA;  Data collected automatically by us&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#data-collected-automatically-by-us&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;We automatically collect data when you use one of our apps. This information includes aggregated user&#xA;data (which does not allow us to identify you) as described in more detail below:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Spritpreise - Datenschutzerklärung</title>
+      <link>https://staudi.dev/gasprices/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://staudi.dev/gasprices/privacy-policy/</guid>
+      <description>&lt;p&gt;(Stand: Oktober 2023)&lt;/p&gt;&#xA;&lt;p&gt;Wir freuen uns über Ihr Interesse an unserer App “Spritpreise”. Der Schutz Ihrer Privatsphäre ist für uns sehr wichtig.&lt;/p&gt;&#xA;&lt;h2 id=&#34;von-uns-erfasste-daten&#34;&gt;&#xA;  Von uns erfasste Daten&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#von-uns-erfasste-daten&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h5 id=&#34;personenbezogene-daten&#34;&gt;&#xA;  Personenbezogene Daten&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#personenbezogene-daten&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h5&gt;&#xA;&lt;p&gt;In keiner unserer Anwendungen oder Dienste werden personenbezogene Daten abgefragt oder übertragen. Beispielsweise werden folgende Daten ausschließlich auf Ihrem Gerät gespeichert und zu keiner Zeit an uns oder Dritte weitergeleitet:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Spritpreise - Häufig gestellte Fragen</title>
+      <link>https://staudi.dev/gasprices/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://staudi.dev/gasprices/faq/</guid>
+      <description>&lt;h3 id=&#34;wie-funktioniert-die-app&#34;&gt;&#xA;  Wie funktioniert die App?&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#wie-funktioniert-die-app&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://staudi.dev/images/mtsk.svg&#34; alt=&#34;Diagramm zur Funktionsweise der App. Zu sehen sind eine Tankstelle, die Daten über die Server der Markttransparenzstelle für Kraftstoffe (oder kurz MTS-K) an die App gibt.&#34;&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Tankstellenbetreiber sind verpflichtet Preisänderungen bei den gängigen Kraftstoffsorten Super E5, Super E10 und Diesel „in Echtzeit&amp;quot; an die Markttransparenzstelle für Kraftstoffe (MTS-K) zu melden&lt;/li&gt;&#xA;&lt;li&gt;Die MTS-K gibt eingehenden Preisdaten an Anbieter von Verbraucher-Informationsdiensten weiter, wie zum Beispiel Tankerkönig und damit der App Spritpreise.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt; &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Spritpreise.jetzt</title>
+      <link>https://staudi.dev/spritpreise-jetzt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://staudi.dev/spritpreise-jetzt/</guid>
+      <description>Statically generated website that displays daily updated evaluations and statistics based on fuel prices over the last 5 years.</description>
+    </item>
+  </channel>
+</rss>
