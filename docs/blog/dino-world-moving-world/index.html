@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  Dino World Run: Moving world · Staudi Apps &amp; Games
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Staudi Apps &amp; Games">
+<meta name="description" content="
+In a game, the player normally moves through the world. This works perfectly for the vast majority of games, but for endless runners this can lead to problems if the coordinates where the player is located encounter floating point errors.
+Admittedly, most players will probably never have a run that long before this becomes a problem, but the theoretical possibility of this alone interested me. How frustrating would it be if you had a mega run and then the game crashed or glitched?">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Dino World Run: Moving world">
+  <meta name="twitter:description" content="In a game, the player normally moves through the world. This works perfectly for the vast majority of games, but for endless runners this can lead to problems if the coordinates where the player is located encounter floating point errors. Admittedly, most players will probably never have a run that long before this becomes a problem, but the theoretical possibility of this alone interested me. How frustrating would it be if you had a mega run and then the game crashed or glitched?">
+
+<meta property="og:url" content="https://staudi.dev/blog/dino-world-moving-world/">
+  <meta property="og:site_name" content="Staudi Apps & Games">
+  <meta property="og:title" content="Dino World Run: Moving world">
+  <meta property="og:description" content="In a game, the player normally moves through the world. This works perfectly for the vast majority of games, but for endless runners this can lead to problems if the coordinates where the player is located encounter floating point errors. Admittedly, most players will probably never have a run that long before this becomes a problem, but the theoretical possibility of this alone interested me. How frustrating would it be if you had a mega run and then the game crashed or glitched?">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2025-04-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-04-01T00:00:00+00:00">
+    <meta property="article:tag" content="Dino World Run">
+    <meta property="article:tag" content="Godot">
+
+
+
+
+<link rel="canonical" href="https://staudi.dev/blog/dino-world-moving-world/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.7763f8bc6341ecf82378e867c285e1549abb063a899be313ccd25dbfcd24fa7d.css" integrity="sha256-d2P4vGNB7PgjeOhnwoXhVJq7BjqJm&#43;MTzNJdv80k&#43;n0=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+
+
+ 
+  
+    
+    <link rel="stylesheet" href="/css/custom.min.bbb7b8ae6d17e14c097473fae637bcac04ba103fe61590188d4455d1622536fe.css" integrity="sha256-u7e4rm0X4UwJdHP65je8rAS6ED/mFZAYjURV0WIlNv4=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+<body class="preload-transitions colorscheme-light">
+  
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="https://staudi.dev/">
+      <img src="/images/logo_bright_condensed.png" />
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/blog/">Blog</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <ul id="breadcrumbs">
+        
+        
+        
+            
+                <li><a href="/">Home</a></li>
+            
+        
+        
+        
+        
+            
+                <li><a href="/blog/">Blog</a></li>
+            
+        
+    <li><a href="/blog/dino-world-moving-world/">Dino World Run: Moving world</a></li>
+</ul>
+
+      <h1 class="title">
+        <a class="title-link" href="https://staudi.dev/blog/dino-world-moving-world/">
+          Dino World Run: Moving world
+        </a>
+      </h1>
+
+      <p class="post-date">Posted on 1 April 2025</p>
+    </header>
+
+    <video width="100%" controls src="/videos/blog/DinoWorldRun_MovingWorld.webm"></video>
+<p>In a game, the player normally moves through the world. This works perfectly for the vast majority of games, but for endless runners this can lead to problems if the coordinates where the player is located encounter floating point errors.
+Admittedly, most players will probably never have a run that long before this becomes a problem, but the theoretical possibility of this alone interested me. How frustrating would it be if you had a mega run and then the game crashed or glitched?</p>
+<p>To avoid this problem, I decided to move the entire world instead of the player in my game. In the video you can see in a zoomed out section of my game how the foreground and background move to create the parallax effect. The “ground” and the obstacles are again divided into their own segments, which are randomly selected and added by the game.</p>
+<p>However, the fact that the world moves has a few consequences, for example it needs its own logic to move the world, which leads to problems with the physics engine, as the player does not move towards an object, but the object moves towards the player.</p>
+<p>I don&rsquo;t know if you know the game &ldquo;The Outer Worlds&rdquo;, there is a company with the slogan “It&rsquo;s not the best choice. It&rsquo;s Spacer&rsquo;s choice”. It&rsquo;s the same here, every decision has pros and cons. So it&rsquo;s not necessarily the best choice, but at least it&rsquo;s mine :)</p>
+<p>Let me know if you have any question or want to see more details on how I implemented this.</p>
+<p>If you made it this far into the blog post, why not give the game a try? ☺️ Dino World Run is now available for Android.</p>
+<a href="https://play.google.com/store/apps/details?id=com.braffdev.dinorun">
+    <img loading="lazy" src="/images/en-play-badge.png"/>
+</a>
+
+  </article>
+</section>
+
+  
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2025
+     Staudi Apps &amp; Games 
+    <span class="footer-separator">·</span>
+    
+    <a href="https://github.com/mstaudt" target="_blank">GitHub</a>
+
+    <span class="footer-separator">·</span>
+    <a href="/contact">Contact</a>
+
+    <span class="footer-separator">·</span>
+    <a href="/imprint">Imprint</a>
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>
