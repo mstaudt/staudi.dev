@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dino World Run on Staudi Apps &amp; Games</title>
+    <link>https://staudi.dev/tags/dino-world-run/</link>
+    <description>Recent content in Dino World Run on Staudi Apps &amp; Games</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://staudi.dev/tags/dino-world-run/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dino World Run: Moving world</title>
+      <link>https://staudi.dev/blog/dino-world-moving-world/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://staudi.dev/blog/dino-world-moving-world/</guid>
+      <description>&lt;video width=&#34;100%&#34; controls src=&#34;https://staudi.dev/videos/blog/DinoWorldRun_MovingWorld.webm&#34;&gt;&lt;/video&gt;&#xA;&lt;p&gt;In a game, the player normally moves through the world. This works perfectly for the vast majority of games, but for endless runners this can lead to problems if the coordinates where the player is located encounter floating point errors.&#xA;Admittedly, most players will probably never have a run that long before this becomes a problem, but the theoretical possibility of this alone interested me. How frustrating would it be if you had a mega run and then the game crashed or glitched?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dino World Run now available</title>
+      <link>https://staudi.dev/blog/dino-world-run-out-now/</link>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://staudi.dev/blog/dino-world-run-out-now/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://staudi.dev/images/blog/dinoworldrun-availablenow.jpg&#34; alt=&#34;Dino World Run logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;After six months of hard work, it’s finally happening: &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.braffdev.dinorun&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dino World Run&lt;/a&gt; is officially released for Android! 🎉&lt;/p&gt;&#xA;&lt;p&gt;In this game you play a cute little dino on an epic adventure through hand-drawn worlds. From the overgrown jungle to the scorched volcanic plains and dark caves, many challenging obstacles and lovingly designed levels await you. Challenge yourself and break your own highscore!&lt;/p&gt;&#xA;&lt;p&gt;The game is made with the &lt;a href=&#34;https://godotengine.org/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Godot game engine&lt;/a&gt;. I had a lot of fun learning how to set up and structure a game. As I had never really drawn before, I learned on-the-go how to create assets using ProCreate on an iPad.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
