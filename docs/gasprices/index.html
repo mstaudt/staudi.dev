@@ -52,7 +52,7 @@
  
   
     
-    <link rel="stylesheet" href="/css/custom.min.6c85f81334661a99506ee0268566e3719d11f967c2cccbd5455b6f2d324ebb56.css" integrity="sha256-bIX4EzRmGplQbuAmhWbjcZ0R&#43;WfCzMvVRVtvLTJOu1Y=" crossorigin="anonymous" media="screen" />
+    <link rel="stylesheet" href="/css/custom.min.5cc2f7396f25bef6115aae2756bcb9cd6dee74312d874140c782d4f5e8777b4c.css" integrity="sha256-XML3OW8lvvYRWq4nVry5zW3udDEth0FAx4LU9eh3e0w=" crossorigin="anonymous" media="screen" />
   
 
 
@@ -141,42 +141,14 @@
 <img src="/images/app/phone-EN-web-3.jpg" class="article-image" alt="Spritpreise App" width="19%">
 <img src="/images/app/phone-EN-web-4.jpg" class="article-image" alt="Spritpreise App" width="19%">
 <img src="/images/app/phone-EN-web-5.jpg" class="article-image" alt="Spritpreise App" width="19%">
-
+<p>Launched in 2016 as my very first project. Shortly after I got my driver&rsquo;s license, I was looking for an Android app to compare fuel prices.
+The user interface of competitor apps in particular was often rudimentary and lacked some margin and padding.
+So, as a young developer in the middle of my training with quite a bit of overconfidence I thought to myself: There must be a better way! I can&rsquo;t remember exactly how long the development time was until the release, but it seemed like an eternity and was characterized by a steep learning curve.</p>
+<p>The first versions offered little to no features apart from displaying the current fuel prices at an address.
+Later, favorites, a consumption calculator, statistics, fuel recommendations and a widget were added, making the app what it is today.</p>
 <a href="https://play.google.com/store/apps/details?id=com.braffdev.fuelprice">
-    <img loading="lazy" src="/images/en-play-badge.png"/>
+    <img class="store-badge" loading="lazy" src="/images/en-play-badge.png"/>
 </a>
-<p><strong>AT A GLANCE</strong> 🚦</p>
-<ul>
-<li>You see at a glance everything that is really important - the prices of the petrol stations and when they were last updated there.</li>
-<li>You prefer a map? No problem - the traffic light system immediately shows you where you can get the best price-performance ratio.</li>
-</ul>
-<p><strong>SUPER AND DIESEL</strong> 🚘</p>
-<ul>
-<li>Super 95, Super E10 and Diesel are currently available.</li>
-</ul>
-<p><strong>ALWAYS UP TO DATE</strong> 🚀</p>
-<ul>
-<li>All prices are up-to-date and continuously updated. Even at night, on weekends or holidays.</li>
-</ul>
-<p><strong>SAVE MONEY</strong> 💸</p>
-<ul>
-<li>Fuel prices often vary between petrol stations up to 20 cents. Even within a radius of a few kilometres, the price difference can be very high.</li>
-<li>Search for an address or with GPS at the current location and immediately find the cheapest petrol station!</li>
-</ul>
-<p><strong>FAVORITES ❤️ &amp; HISTORY</strong> 🕘</p>
-<ul>
-<li>You have found your favorite petrol stations? Mark them as favorites to compare prices.</li>
-<li>The last addresses and places you searched for are stored as a history so they are always at your fingertips.</li>
-</ul>
-<p><strong>CONSUMPTION CALCULATOR</strong> 📈</p>
-<ul>
-<li>Have you ever wondered how much your vehicle consumes? The built-in consumption calculator allows you to calculate your consumption at any time.</li>
-</ul>
-<p><strong>COUNTRIES</strong> 🌍</p>
-<ul>
-<li>Currently, only prices of petrol stations in Germany are available.</li>
-</ul>
-<p>The gas station prices are provided by <a href="https://tankerkoenig.de"  class="external-link" target="_blank" rel="noopener">Tankerkönig</a>.</p>
 <h2 id="tech-stack">
   Tech Stack
   <a class="heading-link" href="#tech-stack">
@@ -190,15 +162,12 @@
 </div>
 
 <div class="tech">
-    <img src="/images/godot.png" />
-    <span class="name">Godot</span>
-</div>
-
-<div class="tech">
     <span class="fa-solid fa-server"></span>
     <span class="name">REST-API</span>
 </div>
 </p>
+<p>As all relatively &ldquo;old&rdquo; projects, it has gone through many cycles of &ldquo;Oh God, what is this code&rdquo; and the associated refactorings. By now, it is fully converted to Kotlin and using lots of state-of-the art libraries such as <a href="https://developer.android.com/training/data-storage/room"  class="external-link" target="_blank" rel="noopener">Jetpack&rsquo;s Room</a>, <a href="https://kotlinlang.org/docs/coroutines-overview.html"  class="external-link" target="_blank" rel="noopener">Coroutines</a>, <a href="https://insert-koin.io/"  class="external-link" target="_blank" rel="noopener">Koin</a> and many more.</p>
+<p>The backend is operated by <a href="https://tankerkoenig.de"  class="external-link" target="_blank" rel="noopener">tankerkönig</a>. In addition, there is a simple REST API that enables actions such as removing advertisements free of charge.</p>
 <h2 id="further-reading">
   Further reading
   <a class="heading-link" href="#further-reading">

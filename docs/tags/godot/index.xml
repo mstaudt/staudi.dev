@@ -6,8 +6,15 @@
     <description>Recent content in Godot on Staudi Apps &amp; Games</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://staudi.dev/tags/godot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dino World Run now available on iOS</title>
+      <link>https://staudi.dev/blog/dino-world-now-available-for-iphone-ipad/</link>
+      <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://staudi.dev/blog/dino-world-now-available-for-iphone-ipad/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://staudi.dev/images/blog/DinoWorldRun-iOS-launch.jpg&#34; alt=&#34;Dino World Run logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Great news for all Apple users: Dino World Run is now available on the App Store!&lt;/p&gt;&#xA;&lt;p&gt;After the Android release in late March, the game can now be played on iPhone and iPad as well.&lt;/p&gt;&#xA;&lt;p&gt;I’m super excited to bring the game to even more players. Just like the Android version, this one was built with Godot and all graphics were hand-drawn in ProCreate on my iPad – a real passion project from start to launch.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Dino World Run: Moving world</title>
       <link>https://staudi.dev/blog/dino-world-moving-world/</link>
