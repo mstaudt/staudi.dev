@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  Spritpreise: Implementing a price alarm backend · Staudi Apps &amp; Games
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Staudi Apps &amp; Games">
+<meta name="description" content="
+Spritpreise has recently a Price Alarm feature, that sends push notifications based on a personal price threshold.
+In this blog post, I&rsquo;ll explain some of the technical details and considerations that went into the implementation.
+The API
+The price alarm is handled by a new application and API that I have implemented based on the Spring Boot / Kotlin stack.
+It uses a database to store the configured price alarms, stations as well as the Firebase Cloud Messaging push
+token.">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Spritpreise: Implementing a price alarm backend">
+  <meta name="twitter:description" content="Spritpreise has recently a Price Alarm feature, that sends push notifications based on a personal price threshold. In this blog post, I’ll explain some of the technical details and considerations that went into the implementation.
+The API
+The price alarm is handled by a new application and API that I have implemented based on the Spring Boot / Kotlin stack. It uses a database to store the configured price alarms, stations as well as the Firebase Cloud Messaging push token.">
+
+<meta property="og:url" content="https://staudi.dev/blog/spritpreise-price-alarm-technical-details/">
+  <meta property="og:site_name" content="Staudi Apps & Games">
+  <meta property="og:title" content="Spritpreise: Implementing a price alarm backend">
+  <meta property="og:description" content="Spritpreise has recently a Price Alarm feature, that sends push notifications based on a personal price threshold. In this blog post, I’ll explain some of the technical details and considerations that went into the implementation.
+The API
+The price alarm is handled by a new application and API that I have implemented based on the Spring Boot / Kotlin stack. It uses a database to store the configured price alarms, stations as well as the Firebase Cloud Messaging push token.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2025-06-28T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-06-28T00:00:00+00:00">
+    <meta property="article:tag" content="Spritpreise">
+    <meta property="article:tag" content="Tech">
+
+
+
+
+<link rel="canonical" href="https://staudi.dev/blog/spritpreise-price-alarm-technical-details/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.2cd2ba040eaadea1390f8199e24bd994fabd69b5a7034b43fc2440c58fd09808.css" integrity="sha256-LNK6BA6q3qE5D4GZ4kvZlPq9abWnA0tD/CRAxY/QmAg=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+
+
+ 
+  
+    
+    <link rel="stylesheet" href="/css/custom.min.18c74de6c26d4911eac2e793642d0f970ca8f127321c87b90c2403733e0b50ac.css" integrity="sha256-GMdN5sJtSRHqwueTZC0Plwyo8ScyHIe5DCQDcz4LUKw=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+<body class="preload-transitions colorscheme-light">
+  
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="https://staudi.dev/">
+      <img src="/images/logo_bright_condensed.png" />
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/blog/">Blog</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <ul id="breadcrumbs">
+        
+        
+        
+            
+                <li><a href="/">Home</a></li>
+            
+        
+        
+        
+        
+            
+                <li><a href="/blog/">Blog</a></li>
+            
+        
+    <li><a href="/blog/spritpreise-price-alarm-technical-details/">Spritpreise: Implementing a price alarm backend</a></li>
+</ul>
+
+      <h1 class="title">
+        <a class="title-link" href="https://staudi.dev/blog/spritpreise-price-alarm-technical-details/">
+          Spritpreise: Implementing a price alarm backend
+        </a>
+      </h1>
+
+      
+        <p class="post-date">Posted on 28. June 2025</p>
+      <a class="tag" href="https://staudi.dev/tags/spritpreise/">#Spritpreise</a>
+          <a class="tag" href="https://staudi.dev/tags/tech/">#Tech</a>
+          </header>
+
+    <p><img src="/images/blog/spritpreise-price-alarm-technical-details.jpg" alt="Schematic view of the price alarm technical infrastructure, showing a server that communicates with &lsquo;Firebase&rsquo; that communicates with the users device"></p>
+<p>Spritpreise has recently a Price Alarm feature, that sends push notifications based on a personal price threshold.
+In this blog post, I&rsquo;ll explain some of the technical details and considerations that went into the implementation.</p>
+<p><strong>The API</strong></p>
+<p>The price alarm is handled by a new application and API that I have implemented based on the Spring Boot / Kotlin stack.
+It uses a database to store the configured price alarms, stations as well as the <a href="https://firebase.google.com/docs/cloud-messaging"  class="external-link" target="_blank" rel="noopener">Firebase Cloud Messaging</a> push
+token.</p>
+<p>Whenever a gas station changes their price, <a href="https://creativecommons.tankerkoenig.de/"  class="external-link" target="_blank" rel="noopener">Tankerkoenig</a> sends an event on a messaging bus that the API consumes.
+The event passes some checks and is then compared against all configured price alarms. If it matches, a push notification
+is issued. Sounds simple, but there were actually a few details that required more thinking than I expected.<br>
+For example, let&rsquo;s assume a user has configured the price alarm to 1,80 €. The price at a gas station drops from 1,85 €
+to 1,70 € - a notification will be sent. But what if the price increases to 1,75 € ? It&rsquo;s still below the threshold, hence
+another notification could be sent. There are some gas stations out there that like to update their prices <em>often</em>, like
+more than 25 times per day or more. This could lead to excessive notifications being sent, which not only annoys the user,
+but also increases battery usage on the users device, as all notifications force the device to wake up from sleep. Let
+me know what you think about this.</p>
+<p>For now, I have decided to only send notifications if the price <em>is reduced</em> below the threshold. If it increases but stays
+below the threshold, no notification will be sent.</p>
+<p><strong>Monitoring</strong></p>
+<p>Like usual in IT, there are rarely issues and everything is very stable. Nothing bad will ever happen, monitoring is therefore
+absolutely optional. 🙃</p>
+<p>Well, that&rsquo;s not how things like these work unfortunately, so I investigate quite some time and effort in a reliable
+monitor solution. I&rsquo;ve set up a Prometheus Grafana stack to monitor the application as well as the servers themselves.
+By using alert rules, the system will automatically tell me if the application is down or experiences <em>unexpected errors</em>.</p>
+<p><img src="/images/blog/spritpreise-price-alarm-grafana.jpg" alt="Grafana dashboard showing various telemetry metrics of the price alarm backend"></p>
+<p>This requires the application to provide a list of metrics to have insights into what it&rsquo;s doing and what&rsquo;s happening. As
+an example, there are metrics for the amount of price update events received by Tankerkoenig, as well as the count of push
+notifications being sent.</p>
+<p> </p>
+<hr>
+<p> </p>
+<p>I hope you found this blog post interesting. If you would like to try out my Spritpreise app and the price alarm, you can
+download it here:</p>
+<p><strong>Download Spritpreise for Android now</strong><br>
+<a href="https://play.google.com/store/apps/details?id=com.braffdev.fuelprice">
+    <img class="store-badge" loading="lazy" src="/images/en-play-badge.png"/>
+</a></p>
+
+  </article>
+</section>
+
+  
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2025
+     Staudi Apps &amp; Games 
+    <span class="footer-separator">·</span>
+    
+    <a href="https://github.com/mstaudt" target="_blank">GitHub</a>
+
+    <span class="footer-separator">·</span>
+    <a href="/contact">Contact</a>
+
+    <span class="footer-separator">·</span>
+    <a href="/imprint">Imprint</a>
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>

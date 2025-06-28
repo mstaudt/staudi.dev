@@ -6,14 +6,21 @@
     <description>Recent content in Tech on Staudi Apps &amp; Games</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://staudi.dev/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spritpreise: Implementing a price alarm backend</title>
+      <link>https://staudi.dev/blog/spritpreise-price-alarm-technical-details/</link>
+      <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://staudi.dev/blog/spritpreise-price-alarm-technical-details/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://staudi.dev/images/blog/spritpreise-price-alarm-technical-details.jpg&#34; alt=&#34;Schematic view of the price alarm technical infrastructure, showing a server that communicates with &amp;lsquo;Firebase&amp;rsquo; that communicates with the users device&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Spritpreise has recently a Price Alarm feature, that sends push notifications based on a personal price threshold.&#xA;In this blog post, I&amp;rsquo;ll explain some of the technical details and considerations that went into the implementation.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;The API&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The price alarm is handled by a new application and API that I have implemented based on the Spring Boot / Kotlin stack.&#xA;It uses a database to store the configured price alarms, stations as well as the &lt;a href=&#34;https://firebase.google.com/docs/cloud-messaging&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Firebase Cloud Messaging&lt;/a&gt; push&#xA;token.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Dino World Run: Moving world</title>
       <link>https://staudi.dev/blog/dino-world-moving-world/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://staudi.dev/blog/dino-world-moving-world/</guid>
-      <description>&lt;video width=&#34;100%&#34; controls src=&#34;https://staudi.dev/videos/blog/DinoWorldRun_MovingWorld.webm&#34;&gt;&lt;/video&gt;&#xA;&lt;p&gt;In a game, the player normally moves through the world. This works perfectly for the vast majority of games, but for endless runners this can lead to problems if the coordinates where the player is located encounter floating point errors.&#xA;Admittedly, most players will probably never have a run that long before this becomes a problem, but the theoretical possibility of this alone interested me. How frustrating would it be if you had a mega run and then the game crashed or glitched?&lt;/p&gt;</description>
+      <description>&lt;p&gt;&#xA;    &lt;video width=&#34;100%&#34; controls src=&#34;https://staudi.dev/videos/blog/DinoWorldRun_MovingWorld.webm&#34;&gt;&lt;/video&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;In a game, the player normally moves through the world. This works perfectly for the vast majority of games, but for endless runners this can lead to problems if the coordinates where the player is located encounter floating point errors.&#xA;Admittedly, most players will probably never have a run that long before this becomes a problem, but the theoretical possibility of this alone interested me. How frustrating would it be if you had a mega run and then the game crashed or glitched?&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

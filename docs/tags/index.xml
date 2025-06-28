@@ -6,13 +6,20 @@
     <description>Recent content in Tags on Staudi Apps &amp; Games</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://staudi.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spritpreise</title>
       <link>https://staudi.dev/tags/spritpreise/</link>
-      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://staudi.dev/tags/spritpreise/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tech</title>
+      <link>https://staudi.dev/tags/tech/</link>
+      <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://staudi.dev/tags/tech/</guid>
       <description></description>
     </item>
     <item>
@@ -20,13 +27,6 @@
       <link>https://staudi.dev/tags/dino-world-run/</link>
       <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://staudi.dev/tags/dino-world-run/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tech</title>
-      <link>https://staudi.dev/tags/tech/</link>
-      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://staudi.dev/tags/tech/</guid>
       <description></description>
     </item>
   </channel>
