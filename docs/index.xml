@@ -6,8 +6,22 @@
     <description>Recent content on Staudi Apps &amp; Games</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 10 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://staudi.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spritpreise.jetzt</title>
+      <link>https://staudi.dev/spritpreise-jetzt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://staudi.dev/spritpreise-jetzt/</guid>
+      <description>Statically generated website that displays daily updated evaluations and statistics based on fuel prices over the last 5 years.</description>
+    </item>
+    <item>
+      <title>New project: Soundboard app</title>
+      <link>https://staudi.dev/blog/soundboard-out-now/</link>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://staudi.dev/blog/soundboard-out-now/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://staudi.dev/images/soundboard/banner.jpg&#34; alt=&#34;Soundboard banner&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I am excited to introduce a very special new project today: the Soundboard App.&lt;/p&gt;&#xA;&lt;p&gt;This time, it is not just another utility application, but a joint development project realized together with a friend&amp;rsquo;s daughter. The goal was to bring her creative ideas to life and build a fully functional application from scratch together.&lt;/p&gt;&#xA;&lt;p&gt;From a technical perspective, the Android app was built entirely using Jetpack Compose. It features a modern, clean interface. All the built-in sound effects included in the app were either recorded by ourselves or sourced from &lt;a href=&#34;https://freesound.org&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;freesound.org&lt;/a&gt; - a great collaborative database for Creative Commons licensed sounds.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Handelsblatt awards spritpreise.jetzt as best online portal</title>
       <link>https://staudi.dev/blog/spritpreise-handelsblatt-award/</link>
@@ -105,13 +119,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://staudi.dev/gasprices/faq/</guid>
       <description>&lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#allgemein&#34;&gt;Allgemein&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#wie-funktioniert-die-app&#34;&gt;Wie funktioniert die App?&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#warum-gibt-es-nur-super-95-super-e10-und-diesel&#34;&gt;Warum gibt es nur Super 95, Super E10 und Diesel?&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#warum-stimmen-die-preise-manchmal-nicht&#34;&gt;Warum stimmen die Preise manchmal nicht?&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#kann-eine-fehlende-tankstelle-hinzugefügt-werden&#34;&gt;Kann eine fehlende Tankstelle hinzugefügt werden?&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#eine-tankstelle-hat-dauerhaft-geschlossen-wird-aber-noch-angezeigt&#34;&gt;Eine Tankstelle hat dauerhaft geschlossen, wird aber noch angezeigt&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#die-entfernung-zu-einer-tankstelle-ist-falsch&#34;&gt;Die Entfernung zu einer Tankstelle ist falsch&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#ich-habe-die-werbung-entfernt-aber-sie-wird-noch-auf-meinen-anderen-geräten-angezeigt&#34;&gt;Ich habe die Werbung entfernt aber sie wird noch auf meinen anderen Geräten angezeigt&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#pricealarm&#34;&gt;Preisalarm&lt;/a&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#was-ist-der-preisalarm&#34;&gt;Was ist der Preisalarm?&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#wann-bekomme-ich-eine-benachrichtigung&#34;&gt;Wann bekomme ich eine Benachrichtigung?&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#wie-aktiviere-ich-den-preisalarm&#34;&gt;Wie aktiviere ich den Preisalarm?&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#ich-erhalte-keine-benachrichtigungen&#34;&gt;Ich erhalte &lt;em&gt;keine&lt;/em&gt; Benachrichtigungen&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#ich-erhalte-zu-viele-benachrichtigungen&#34;&gt;Ich erhalte &lt;em&gt;zu viele&lt;/em&gt; Benachrichtigungen&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#deine-frage-ist-nicht-dabei&#34;&gt;Deine Frage ist nicht dabei?&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;p&gt; &lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Spritpreise.jetzt</title>
-      <link>https://staudi.dev/spritpreise-jetzt/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://staudi.dev/spritpreise-jetzt/</guid>
-      <description>Statically generated website that displays daily updated evaluations and statistics based on fuel prices over the last 5 years.</description>
     </item>
   </channel>
 </rss>

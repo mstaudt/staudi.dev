@@ -6,8 +6,15 @@
     <description>Recent content in Blog on Staudi Apps &amp; Games</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 10 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://staudi.dev/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New project: Soundboard app</title>
+      <link>https://staudi.dev/blog/soundboard-out-now/</link>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://staudi.dev/blog/soundboard-out-now/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://staudi.dev/images/soundboard/banner.jpg&#34; alt=&#34;Soundboard banner&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I am excited to introduce a very special new project today: the Soundboard App.&lt;/p&gt;&#xA;&lt;p&gt;This time, it is not just another utility application, but a joint development project realized together with a friend&amp;rsquo;s daughter. The goal was to bring her creative ideas to life and build a fully functional application from scratch together.&lt;/p&gt;&#xA;&lt;p&gt;From a technical perspective, the Android app was built entirely using Jetpack Compose. It features a modern, clean interface. All the built-in sound effects included in the app were either recorded by ourselves or sourced from &lt;a href=&#34;https://freesound.org&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;freesound.org&lt;/a&gt; - a great collaborative database for Creative Commons licensed sounds.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Handelsblatt awards spritpreise.jetzt as best online portal</title>
       <link>https://staudi.dev/blog/spritpreise-handelsblatt-award/</link>
