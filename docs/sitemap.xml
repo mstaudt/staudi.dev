@@ -3,6 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://staudi.dev/gasprices/</loc>
+    <lastmod>2026-04-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://staudi.dev/spritpreise-jetzt/</loc>
   </url><url>
@@ -10,25 +11,31 @@
   </url><url>
     <loc>https://staudi.dev/dinoworldrun/</loc>
   </url><url>
+    <loc>https://staudi.dev/tags/spritpreise/</loc>
+    <lastmod>2026-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://staudi.dev/blog/spritpreise-map-marker-color-refresh/</loc>
+    <lastmod>2026-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://staudi.dev/gasprices/karte-preisfarben-update/</loc>
+    <lastmod>2026-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://staudi.dev/</loc>
+    <lastmod>2026-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://staudi.dev/tags/</loc>
+    <lastmod>2026-04-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://staudi.dev/blog/soundboard-out-now/</loc>
     <lastmod>2026-03-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://staudi.dev/tags/soundboard/</loc>
     <lastmod>2026-03-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://staudi.dev/</loc>
-    <lastmod>2026-03-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://staudi.dev/tags/</loc>
-    <lastmod>2026-03-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://staudi.dev/tags/award/</loc>
     <lastmod>2025-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://staudi.dev/blog/spritpreise-handelsblatt-award/</loc>
-    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://staudi.dev/tags/spritpreise/</loc>
     <lastmod>2025-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://staudi.dev/blog/spritpreise-price-stability/</loc>

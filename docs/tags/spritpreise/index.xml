@@ -6,8 +6,22 @@
     <description>Recent content in Spritpreise on Staudi Apps &amp; Games</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 10 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://staudi.dev/tags/spritpreise/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spritpreise - An update to the colors on the gas station map</title>
+      <link>https://staudi.dev/blog/spritpreise-map-marker-color-refresh/</link>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://staudi.dev/blog/spritpreise-map-marker-color-refresh/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://staudi.dev/images/blog/spritpreise-map-update-showcase-en.png&#34; alt=&#34;Screenshots comparing the old and new look of the gas station map&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;A recent update has fundamentally changed how the map displays gas station markers (green, yellow, red). Here is a brief explanation of the background.&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-has-changed&#34;&gt;&#xA;  What has changed?&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#what-has-changed&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Previously, the color sorting was always based on the lowest price within a wide radius of 25 kilometers. With the new update, this radius has been significantly reduced to 7.5 kilometers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Spritpreise - Preisfarben passen sich nun der Karte an</title>
+      <link>https://staudi.dev/gasprices/karte-preisfarben-update/</link>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://staudi.dev/gasprices/karte-preisfarben-update/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://staudi.dev/images/blog/spritpreise-map-update-showcase-de.png&#34; alt=&#34;Screenshots comparing the old and new look of the gas station map&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mit einem kürzlich veröffentlichten Update wurde das Verhalten der Kartendarstellung bezüglich der farblichen Tankstellen-Markierungen (Grün, Gelb, Rot) grundlegend angepasst. Hier werden kurz die Hintergrund erläutert.&lt;/p&gt;&#xA;&lt;h3 id=&#34;was-hat-sich-geändert&#34;&gt;&#xA;  Was hat sich geändert?&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#was-hat-sich-ge%c3%a4ndert&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Bisher wurde für die farbliche Einsortierung stets der günstigste Preis innerhalb eines weiten Umkreises von 25 Kilometern als Referenz herangezogen. Mit dem neuen Update wurde dieser Radius deutlich auf 7,5 Kilometer verkleinert.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Handelsblatt awards spritpreise.jetzt as best online portal</title>
       <link>https://staudi.dev/blog/spritpreise-handelsblatt-award/</link>
